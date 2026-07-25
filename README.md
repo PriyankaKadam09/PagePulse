@@ -87,15 +87,24 @@ Example:
   "message": "Please provide a valid URL"
 }
 
-Testing
+## Testing
+
 The project includes test cases for:
+
 URL validation
+
 API response correctness
+
 Error scenarios
+
 Audit service functionality
+
 Run tests using:
+
 mvn test
-Architecture Overview
+
+## Architecture Overview
+
 The application follows a simple scalable architecture:
 User
 ↓
@@ -110,7 +119,9 @@ Website URL Checker
 Response Generation
 ↓
 Audit History Storage
+
 Scalability Design
+
 To handle high traffic and concurrent requests:
 Queue-based processing can be used for handling large audit workloads.
 Worker services can process URL checks independently.

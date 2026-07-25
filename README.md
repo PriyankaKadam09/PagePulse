@@ -55,6 +55,5 @@ Response:
 3. Run the Spring Boot application.
 4. Open:
 
-http://localhost:8080
-
+http://localhost:8080/
 ## Built for Digital Heroes Training Task

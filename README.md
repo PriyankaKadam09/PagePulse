@@ -92,11 +92,8 @@ Example:
 The project includes test cases for:
 
 URL validation
-
 API response correctness
-
 Error scenarios
-
 Audit service functionality
 
 Run tests using:
@@ -120,7 +117,7 @@ Response Generation
 ↓
 Audit History Storage
 
-Scalability Design
+# Scalability Design
 
 To handle high traffic and concurrent requests:
 Queue-based processing can be used for handling large audit workloads.
@@ -130,8 +127,11 @@ Database stores audit history and results.
 Rate limiting protects the service from excessive requests.
 Continuous Integration
 Automated testing can be integrated using GitHub Actions to run tests on every push and pull request.
-Deployment
-GitHub Repository:
-https://github.com/PriyankaKadam09/PagePulse⁠
 
-## Built for Digital Heroes Training Task
+# Deployment
+
+GitHub Repository:
+
+[PagePulse GitHub Repository](https://github.com/PriyankaKadam09/PagePulse)
+
+# Built for Digital Heroes Training Task

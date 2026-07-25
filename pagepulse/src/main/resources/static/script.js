@@ -5,7 +5,7 @@ function checkURL() {
 
     result.innerHTML = "Checking website... ⏳";
 
-    fetch("http://localhost:8080/api/audit", {
+    fetch("/api/audit", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

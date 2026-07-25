@@ -9,6 +9,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+import org.springframework.cache.annotation.Cacheable;
+
 
 @RestController
 @RequestMapping("/api")
@@ -21,6 +23,7 @@ public class AuditController {
     private final Map<String,List<Long>>requestLog = new HashMap<>();
     private final Map<String,List<Long>>responseLog = new HashMap<>();
 
+    @Cacheable(value = "auditCatch",key = "#request.url")
     @PostMapping("/audit")
     public AuditResponse audit(@Valid @RequestBody AuditRequest request) {
 

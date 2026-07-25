@@ -132,6 +132,6 @@ Automated testing can be integrated using GitHub Actions to run tests on every p
 
 GitHub Repository:
 
-https://github.com/PriyankaKadam09/PagePulse
+https://github.com/PriyankaKadam09/PagePulse/
 
 # Built for Digital Heroes Training Task

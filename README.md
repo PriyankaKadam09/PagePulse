@@ -134,4 +134,12 @@ GitHub Repository:
 
 https://github.com/PriyankaKadam09/PagePulse/
 
+## AI Usage Statement
+
+I used AI tools to assist with brainstorming, debugging, code refinement,
+documentation, and improving the overall structure of the project.
+AI was also used to help prepare the README and architecture documentation. 
+I reviewed, tested, integrated, and validated all generated content myself before submission.
+The final implementation, testing, and submission were completed by me.
+
 # Built for Digital Heroes Training Task

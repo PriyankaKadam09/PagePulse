@@ -134,6 +134,10 @@ GitHub Repository:
 
 https://github.com/PriyankaKadam09/PagePulse/
 
+## Live Demo
+
+[🚀 PagePulse Live Demo](https://pagepulse-ivxb.onrender.com/)
+
 ## AI Usage Statement
 
 I used AI tools to assist with brainstorming, debugging, code refinement,
